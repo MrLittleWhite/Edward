@@ -1,0 +1,6 @@
+framework module Edward {
+  umbrella header "Edward-umbrella.h"
+
+  export *
+  module * { export * }
+}

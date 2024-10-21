@@ -1,0 +1,25 @@
+{
+  "name": "Edward",
+  "version": "0.1.0",
+  "summary": "A short description of Edward.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuyunzhi/Edward",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuyunzhi": "yunzhi.liu-a2105@aqara.com"
+  },
+  "source": {
+    "git": "https://github.com/liuyunzhi/Edward.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Edward/Classes/**/*",
+  "public_header_files": "Pod/Classes/Header/Edward.h",
+  "project_header_files": "Pod/Classes/Header/Person.h",
+  "frameworks": "Foundation"
+}

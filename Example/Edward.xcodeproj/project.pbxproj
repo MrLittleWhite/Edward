@@ -31,7 +31,7 @@
 		0961BFB33F4E06A7BAD6D64C /* Pods-Edward_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edward_Example.release.xcconfig"; path = "Target Support Files/Pods-Edward_Example/Pods-Edward_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1B905C17425D73038BC74B2C /* Pods-Edward_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edward_Example.debug.xcconfig"; path = "Target Support Files/Pods-Edward_Example/Pods-Edward_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1D986F47BBC2E0F3AC0BE13D /* Pods_Edward_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Edward_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24DFB7A3AF4B8FD5DBACEA3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		24DFB7A3AF4B8FD5DBACEA3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Edward_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edward_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		985372AAECD31C8468E5D505 /* Pods-Edward_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edward_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Edward_Tests/Pods-Edward_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BB54F8D85D953836408EBF6 /* Pods-Edward_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edward_Tests.release.xcconfig"; path = "Target Support Files/Pods-Edward_Tests/Pods-Edward_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D4D9EE895288C14092E27BA5 /* Pods_Edward_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Edward_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D96184F697432A317C2C4AA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E112DF2624FD3C093DF9BE81 /* Edward.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Edward.podspec; path = ../Edward.podspec; sourceTree = "<group>"; };
+		D96184F697432A317C2C4AA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E112DF2624FD3C093DF9BE81 /* Edward.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Edward.podspec; path = ../Edward.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				985372AAECD31C8468E5D505 /* Pods-Edward_Tests.debug.xcconfig */,
 				9BB54F8D85D953836408EBF6 /* Pods-Edward_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				3901B02CEC952924DE09D959 /* [CP] Embed Pods Frameworks */,
+				2E22A51E79D2F550FCB150C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = C8TC58MJR3;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = C8TC58MJR3;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,7 +265,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3901B02CEC952924DE09D959 /* [CP] Embed Pods Frameworks */ = {
+		2E22A51E79D2F550FCB150C9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,7 +501,9 @@
 			baseConfigurationReference = 1B905C17425D73038BC74B2C /* Pods-Edward_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C8TC58MJR3;
 				INFOPLIST_FILE = Edward/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -514,7 +518,9 @@
 			baseConfigurationReference = 0961BFB33F4E06A7BAD6D64C /* Pods-Edward_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C8TC58MJR3;
 				INFOPLIST_FILE = Edward/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -528,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 985372AAECD31C8468E5D505 /* Pods-Edward_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = C8TC58MJR3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -537,6 +544,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,11 +558,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BB54F8D85D953836408EBF6 /* Pods-Edward_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = C8TC58MJR3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

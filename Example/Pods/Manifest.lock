@@ -1,0 +1,27 @@
+PODS:
+  - Edward (0.1.0)
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - Edward (from `../`)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  Edward:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Edward: d69236f7f384db6201b6a84652e3d47598b53c11
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: a268e749da9ff7f1a6ce83c5ce705b224c46e970
+
+COCOAPODS: 1.15.2
